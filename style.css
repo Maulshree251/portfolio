@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
 #wrapper{
     height: 100vh;
     overflow: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .container{
     width: 1200px;
@@ -19,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    
 
 }
 .logo{
@@ -60,3 +67,60 @@ a{
     transition: all 1s;
 }
 
+.main-section img{
+    height: 100%;
+    width: 100%;
+}
+#intro-text {
+    background-color: antiquewhite;
+    border-radius: 70px;
+    border: 2px solid #333;
+    position: absolute; 
+    left: 30%;
+    top: 40%;
+    right: 25%;
+    padding: 30px;
+}
+
+#intro-text  h1{
+    font-family: qwitcher grypen;
+    font-size: 90px;
+    margin-left: 30px;
+}
+#intro-text h3{
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.about{
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    height: 100% ;
+    width: 40%;
+    padding: 30px;
+    /* background-color: red; */
+    margin-left: 30px;
+
+}
+.text {
+    height: 100% ;
+    width: 40%;
+    padding: 30px;
+    background-color: yellow;
+    margin-right: 30px;
+}
+
+.text h2{
+    font-size: 50px;
+    font-family: roboto mono;
+}
+.img2{
+    margin-left: 80px;
+    border-radius: 40px;
+    border: 2px solid #444;
+}
